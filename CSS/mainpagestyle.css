@@ -1,0 +1,97 @@
+  /* Fonts */
+@font-face {
+    font-family: "OctosquaresL";
+    src: url("fonts/Octosquares light.ttf");
+  }
+
+@font-face {
+    font-family: "Octosquares";
+    src: url("fonts/Octosquares.ttf");
+  }
+
+@font-face {
+    font-family: "OctosquaresEL";
+    src: url("fonts/Octosquares ExtraLight.ttf");
+  }
+
+
+
+
+  /* Style */
+body {
+    background-color: #294747;
+  }
+  h1 {
+    color: #E5E1DA;
+    font-family: 'Octosquares';
+  }
+  h2 {
+    color: #bdb9b3;
+    font-family: 'OctosquaresL';
+    font-size: 16px;
+  }
+  p {
+    color: #cfccc5;
+    font-family: 'OctosquaresEL';
+    font-size: 19px;
+  } 
+
+.title{
+  display: inline-block;
+  padding-left: 1px;
+  padding-bottom: 10px;
+
+}
+
+.imageleft{
+  width: 365px;
+  height: 365px;
+  border-style: solid;
+  border-color: #bdb9b3;
+  display: inline-block;
+  
+
+}
+.searchbar{
+  position: absolute;
+  left: 20px;
+  top: 490px;
+
+
+}
+
+.bookmarks{
+  display: inline-block;
+  color: #bdb9b3;
+  font-family: 'OctosquaresL';
+  padding-bottom: 8%;
+  padding-left: 15.5%;
+}
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+.bookmarks td, th, table {
+  text-align: center;
+  padding: 20px;
+  border-top: #bdb9b3 solid;
+}
+.toptable{
+  color: #E5E1DA;
+  font-size: 20px;
+}
+
+.verse{
+  position: absolute;
+  width: 600px;
+  color: #bdb9b3;
+  font-family: 'OctosquaresL';
+  top: 400px;
+  left: 505px;
+}
+
+a{
+  color: #bdb9b3;
+
+
+}
